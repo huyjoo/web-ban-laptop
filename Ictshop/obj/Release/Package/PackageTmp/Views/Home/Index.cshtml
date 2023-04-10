@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "LapTopSinhVien";
+    
+}
+
+
+<br />
+<div class="row">
+    <div class="col-md-8">
+       @Html.Action("SlidePartial","Home")
+    </div>
+    <div class="col-md-4">
+        <img src="~/HinhanhSP/qc3.gif" class="img-responsive" alt="" />
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>
+<div>
+    <img class="img-responsive" src="~/HinhanhSP/ban1.jpg" />
+</div>
+<br />
+
+<div class="danhmuc">
+    @Html.Action("DanhmucPartial", "Danhmuc")
+</div>
+<div class="dt">
+
+    @Html.Action("dell", "Sanpham")
+</div>
+<div class="dt">
+
+    @Html.Action("asus", "Sanpham")
+</div>
+
+<div class="dt">
+
+    @Html.Action("macbook", "Sanpham")
+</div>
+
+
+
